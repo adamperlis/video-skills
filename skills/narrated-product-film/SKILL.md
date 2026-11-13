@@ -11,7 +11,7 @@ Let the voice lead, but make every line earn a picture. Pair each spoken claim w
 
 Write short, speakable lines. One capability or claim per line usually makes one beat. Trace factual claims to the current product. When a feature depends on a mode or setting, name that condition in the line and show it on screen. Read the script aloud before building the timeline.
 
-Mark the intended voice, pace, pronunciation, and pauses. Record or synthesize the voice only through a service the user has authorized and for which the voice rights are clear. Keep line and word timings so a revised read can retime captions and picture without guessing.
+Mark the intended voice, pace, pronunciation, and pauses. Record or synthesize the voice only through a service the user has authorized and for which the voice rights are clear. When the user has Walkie connected to their assistant, the `walkie-voiceover` skill synthesizes the read on their own computer and returns the audio file. Keep line and word timings so a revised read can retime captions and picture without guessing.
 
 ## Pair words and images
 

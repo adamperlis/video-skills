@@ -1,6 +1,6 @@
 # Video skills for Claude and Codex
 
-Eleven reusable skills for planning, capturing, and finishing videos. The UI
+Twelve reusable skills for planning, capturing, and finishing videos. The UI
 and branding workflows are included alongside the general production skills.
 
 | Skill | Use it for |
@@ -12,12 +12,17 @@ and branding workflows are included alongside the general production skills.
 | `ui-tutorial-video` | A step-by-step tutorial in the real interface |
 | `narrated-product-film` | A voice-led film with visual proof for each line |
 | `brand-film` | A narrative launch or campaign film |
+| `walkie-voiceover` | A voiceover for any of these films, narrated by the user's own Walkie app |
 | `brand-grid-video` | A moving grid of UI and brand elements |
 | `video-brand-system` | Shared color, type, motion, sound, and framing rules |
 | `video-thumbnails` | Still covers and short animated loops |
 | `social-video-hooks` | Openings, scripts, and timed beat sheets for social clips |
 
 Each folder contains a standard `SKILL.md` file with `name` and `description` frontmatter. These are guidance skills: they use the capture, editing, and rendering tools available in the user's environment. They do not contain a rendering app, API integration, or credentials.
+
+## Give a film a voice
+
+`walkie-voiceover` pairs with `brand-film` and `narrated-product-film`. Ask your assistant to make the film and give it a voice: it writes the script, asks [Walkie](https://trywalkie.com) on your computer to narrate it, and cuts the picture to the audio file that comes back. It needs the Walkie app open and signed in on a plan that includes assistant connections (Walkie Work or above), Walkie connected to your assistant ([setup guide](https://trywalkie.com/mcp/setup)), and the setting "Let your assistant add recordings and narrate" turned on in Walkie's Settings, under MCP. Narration counts toward your Read Aloud time, and the voice is AI-generated, so say so where you publish. You can hear the voices at [trywalkie.com/mcp/voices](https://trywalkie.com/mcp/voices). If Walkie is not connected, the skill tells you what to switch on.
 
 ## Install
 

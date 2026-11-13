@@ -22,3 +22,7 @@ Do not redraw a logo or end tag from memory if the actual asset exists. Use owne
 ## Review before delivery
 
 Storyboard the major frames and transitions. Watch a rough cut for story clarity before polishing. Then check final exports for timing, readable claims, audio mix, brand consistency, and aspect-ratio composition. The film should still make sense when viewed muted, unless the user specifically wants an audio-led piece.
+
+## Adding a voice
+
+If the user wants a voiceover, write the narration against the beats, one line per beat, and settle the words before recording. When the user has Walkie connected to their assistant, use the `walkie-voiceover` skill to turn the script into an audio file, then cut the picture to the voice. The muted check still applies: the voice should deepen the story, not carry facts the picture leaves out.
